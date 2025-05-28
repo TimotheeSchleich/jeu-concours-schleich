@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu Concours - Gagnez un gorille !</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="schleich_logo.png" alt="Logo Schleich" class="logo">
+  <div class="container">
+    <h1>Jeu Concours</h1>
+    <form action="/submit" method="post">
+      <label>Ville du magasin :</label>
+      <input type="text" name="ville" required>
+
+      <label>Nom & Prénom du Directeur :</label>
+      <input type="text" name="nom" required>
+
+      <label>Email :</label>
+      <input type="email" name="email" required>
+
+      <label>Téléphone :</label>
+      <input type="tel" name="telephone" required>
+
+      <label>
+        <input type="checkbox" name="cgu" required>
+        J'ai bien pris connaissance des <a href="/modalites" target="_blank">modalités de participation</a>
+      </label>
+
+      <button type="submit">Je tente de gagner le gorille 🦍</button>
+    </form>
+  </div>
+</body>
+</html>
