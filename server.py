@@ -21,6 +21,7 @@ def submit():
     data = {
         'ville': request.form['ville'],
         'nom': request.form['nom'],
+        'fonction': request.form['fonction'],
         'email': request.form['email'],
         'telephone': request.form['telephone']
     }
